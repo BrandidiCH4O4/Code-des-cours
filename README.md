@@ -9,6 +9,7 @@
       <ul>
          <li>COURS</li>
          <ul>
+           <li>LATEX</li>
            <li>TW1</li>
            <li>Python</li>
            <li>Construction CV et lettre de motivation</li>
