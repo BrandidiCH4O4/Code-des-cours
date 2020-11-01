@@ -1,0 +1,7 @@
+Evoland patch log
+Update from version 2.0.0.3 to 2.0.1.5
+
+Incorrect version of: C:\GOG Games\Evoland\META-INF\signatures.xml
+Incorrect version of: C:\GOG Games\Evoland\META-INF\AIR\application.xml
+Incorrect version of: C:\GOG Games\Evoland\META-INF\AIR\hash
+Incorrect version of: C:\GOG Games\Evoland\game.dat
