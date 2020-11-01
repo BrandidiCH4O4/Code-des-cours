@@ -7,9 +7,12 @@
       <hr>
       <p><U>Ce référentiel contient des dossiers de cours</U> :</>
       <ul>
-         <li>TW1</li>
-         <li>Python</li>
-         <li>Construction CV et lettre de motivation</li>
+         <li>COURS</li>
+         <ul>
+           <li>TW1</li>
+           <li>Python</li>
+           <li>Construction CV et lettre de motivation</li>
+         </ul>
       </ul>
       <hr>
       <p><U>ainsi que des dossiers et fichiers jeu</U> :</p>
