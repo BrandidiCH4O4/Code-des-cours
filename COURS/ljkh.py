@@ -1,5 +1,0 @@
-print('bonjour')
-nom=input('quelle est votre nom? ')
-print('bonjour',nom)
-age=int(input('quelle est votre age? sans le ans. '))
-print('bonjour',nom,'vous avez',age,'ans.')
