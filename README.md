@@ -12,7 +12,7 @@
          <li>Construction CV et lettre de motivation</li>
       </ul>
       <hr>
-      <p><U>ainssi que des dossiers et fichiers jeu</U> :</p>
+      <p><U>ainsi que des dossiers et fichiers jeu</U> :</p>
       <ol>
         <li> IGG-Evolaq111GOG</li>
         <li> Plague-Inc </li>
@@ -21,7 +21,7 @@
        <li>TiyTask.exe</li>
      </ol>
      <hr>
-     <p><U>ainssi qu'un fichier de démo Github</U> :</p>
+     <p><U>ainsi qu'un fichier de démo Github</U> :</p>
      <ul>
         <li> Readme.md </li>
      </ul>
