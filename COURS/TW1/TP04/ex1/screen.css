@@ -1,0 +1,57 @@
+main {
+    /*border-left-width: 20px;*/
+    border: 4px solid red;
+    border-left-width: 20px;
+    /*width 50%;*/
+}
+
+article {
+    border: 2px dotted #666;
+    margin: 30px auto;
+    padding: 30px 100px;
+    width: 50%;
+    text-align: center;
+    box-sizing: border-box;
+    /*height: 10em;
+    /*overflow: /*hidden*//*auto*/;
+}
+
+h2, p {
+    background-color: gold;
+    border: 1px solid #AAA;
+    margin: 5px;
+    padding-left: 5em;
+    font-size: 100%;
+}
+
+strong {
+    border: 1px solid black;
+    background-color: tomato;
+    margin: 30px 5px;
+    /*padding 30px 5px;*/
+}
+html{
+    width: 800px;
+    padding: 3em;
+    border: 2px solid purple;
+}
+
+/*
+    1: ça centre les blocks au milieu du main.
+    2: Je pense que cela va centrer l'éléments strong.
+    3: ça a reduit l'écart a droite et a gauches des blocks.
+    4: Leur marge par deffaut.
+    5: ça centre les éléments des blocks en les éloignants de leurs bordures.
+    6: margin: cela a fait: ce que j'attendais. 5px ça va réduire l'écart entre les éléments. padding: ça centre les éléments des blocks en les éloignants de leurs bordures
+    7: padding-left: ça n'a pas le même rendue puisque le titre n'est pas de la mêmme taille que le paragraphe. font-size:ça mets le titre de la même taille que le paragraphe et ça les alligne excatement paraeil à gauche.
+    8:
+    9: à la fin: la bordure gauche grossi. au début: La bordure gauche ne grossi pas. Vue que la bordure n'existe pas encore la bordure gauche ne grossi pas.
+    10: cela reduit de 50% la taille du blocks, par rapports a celle de la bordure de main.
+    11: Non. Text-align porte juste sur le texte. La valeur auto place automatiquement l'élémént au mileu de l'élément parent.
+    12:
+    13: padding: 100px réduit la taille du paragraphe. width: controle la propriéte de la boite par rapport à la boite parent.
+    14:
+    15: ça devient illisible.
+    16: hidden: ça a plasser le paragraphe dans la boite, mais il y a des éléments non-visible, donc je pense que cela n'est pas une bonne idée. auto: ça a plasser le paragraphe dans la boite, en rajoutant l'option de la molette, donc maintenant on peut lire normalement.
+    17: c'est le html sur le main et son contenue. Cet élément est: le html. Oui, mais ça devient illisible.
+*/
