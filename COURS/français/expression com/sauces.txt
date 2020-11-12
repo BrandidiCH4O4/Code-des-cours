@@ -1,0 +1,76 @@
+Engagements grandes distribution:
+
+	-Carrefour:
+		-https://www.carrefour.com/fr/rse/engagements/garantir-le-bien-etre-animal
+
+	-Auchan:
+		-http://pressroom.auchan.fr/images/neopressroom/317/politique-bea-auchan-retail-france-1.pdf
+
+Articles:
+	-Casino:
+		-https://www.lemonde.fr/economie/article/2018/12/05/casino-lance-un-etiquetage-sur-le-bien-etre-animal_5392887_3234.html
+		(Article pas complet, abonnement nécessaire)
+		-https://www.groupe-casino.fr/bien-etre-animal-le-groupe-casino-recoit-le-trophee-de-la-meilleure-innovation-en-grande-distribution-ciwf/
+
+	-Multiples:
+		-(Carrefour-Système U)https://www.ouest-france.fr/societe/alimentatio/carrefour-et-systeme-u-adoptent-l-etiquette-bien-etre-animal-6724582
+		(étiquette bien-être animal)
+
+Associations/ONG
+	-CIWF:
+		-https://www.ciwf.fr/nos-mobilisations/etiquetage-du-mode-delevage/letiquette-bien-etre-animal/
+		((Partenariat Casino(avec LFDA et l'OABA))Etiquetage sur le bien-être animal)
+
+Notes:
+	-Ambition:
+		-Carrefour:
+			-Carrefour se base sur les "5 libertés fondamentales":
+				-accès aux besoins de base(nourriture, eau), pas de malnutrition -> liberté physiologique
+				-environnment approprié(abris, aire de repos confortables) -> liberté environnementale
+				-bon traitement médical(pas de douleurs, maladies...) -> liberté sanitaire
+				-les animaux peuvent se comporter normalement, être en contact leurs congénères -> liberté comportementale
+				-pas de peur, anxiété, pas de souffrance psy -> liberté psychologique
+
+			-10 objectifs prioritaires:
+				-1.interdire les antibio facteurs de croissance et hormones de croiss
+				-2.pas de clonage et de modification génétique
+				-3.restreindre le confinement
+				-4.pas trop de stress pendant transport et abattage
+				-5.limiter pratiques controversées(castration, épointage...)
+				-6.alimentation adéquate
+				-7.suivi sanitaire
+				-8.pas de tests sur animaux(cosmétique, produits d'entretien...)
+				-9.pas de materiaux d'origine animale non issus d'élevages avec obj 1er production de denrées alimentaires
+				-10.+confort par habitat
+		-Auchan:
+			-les 5 libertés
+			-2019 -> création gamme poulet plus respectueuse du b-ê animal(critères de Better Chicken -> 2026)
+			-2022 -> oeufs à coquille poulets hors-cages pour marque auchan
+			-2025 -> ensemble oeufs et ovoproduits
+			-éxigences mini revu en 2019 pour fillières auchan:
+				-plus d'espaces
+				-meilleur accès au plein air
+				-meilleur millieu de vie
+			-partenariat avec CIWF
+			-better chicken(vers 2026)
+			-diminution de la densité d'élevage des poulets jusqu'à 30kg/m²
+				
+
+	-Objectifs et perf:
+		-Carrefour:
+			-mise en place d'un plan bien-être animal dans tous les pays en 2020
+			-100% d'oeufs de marque carrefour issus d'élevage n'utilisant pas la cage, étendue à l'ensemble du rayon
+				-France métropolitaine: objectif atteint, 2025 pour l'ensemble du rayon
+				-Europe: fin 2020 pour les marques carrefour, 2025 pour le rayon
+				-Brazil, Argentina et Taiwan: 2025 pour marques carrefour, 2028 pour le rayon(avec marques nationales)
+			-Agriculture bio: 4,8 milliards € de ciffres d'affaires de produits bio d'ici 2022
+
+			-France métropolitaine:
+				-100% des oeufs ingédients hors cage d'ici 2025
+				-100% des produits avec 50% de poulet avec marques carrefour respecteront les critères du European Chicken Commitment d’ici 2026.
+				-100% des abattoirs audités selon des critères de bien-être animal en 2020
+				-100% // solicités pour l'installation des caméras
+				-100% oeufs de cailles marques carrefour élevage hors cage
+				-pareil pour les lapins
+			-Brésil:
+				d'ici 2025 produits porcins marques carrefour, plus de castration à vif
