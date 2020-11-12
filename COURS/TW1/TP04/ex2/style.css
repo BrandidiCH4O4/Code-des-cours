@@ -1,0 +1,47 @@
+h2{
+    color: #FFFFFF;
+    background-color: green;
+    text-indent: 25px;
+    font-style:italic;
+}
+ul{
+    list-style-type: square;
+}
+small{
+    background-color: silver;
+    color: #000000;
+}
+ol{
+    list-style-type: upper-alpha;
+    width: auto;
+}
+strong{
+    color: green;
+}
+ol li{
+    border: 1px solid green;
+    background-color: tomato;
+    width: auto;
+    max-width: 100%;
+	height: auto;
+    width: 30%;
+    margin: auto;
+    padding: 0.5em;
+    text-align: middle;
+}
+i{
+    color: orange;
+}
+hr{
+    color: green;
+    width:1000px;
+}
+h1{
+    background-color: #FFFFFF;
+    color: #000000;
+    border-left-width: brown 20px;
+    border-right-width: brown 20px;
+    text-align: center;
+}
+abbr{
+    white-space: normal;

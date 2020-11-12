@@ -1,0 +1,59 @@
+
+body {
+    width: 45em;
+    margin: auto;
+    position: relative;
+}
+
+aside {
+    background-color: rgba(10, 200, 140, 0.7);
+    position: absolute;
+    width: 400px;
+    top: 10px;
+    right: -300px;
+    position: fixed;
+}
+
+p {
+    border: 1px solid #555;
+}
+
+h1 {
+    background-color: rgba(100, 0, 200, 0.7);
+    padding: .5em;
+    position: static;
+    top: 200px;
+    right: 50px;
+    z-index: -1;
+}
+
+h2 {
+    background-color: rgba(200, 0, 100, 0.5);
+}
+
+strong {
+    background-color: rgba(174, 145, 78, 0.7);
+    border: 1px solid goldenrod;
+    margin: 30px;
+    width: 10em;
+    height: 20em;
+    display: inline-block;
+    float: right;
+}
+ #next-paragraph{
+     clear: right;
+}
+/*
+1:
+2: Cela fait prendre en compte le width et le height, ainsi que par la même occasion, cela crée un énorme block du morceau de paragraphe "surligner"
+3:
+4: Cela faite "sortir" le block est rend le texte "un peu" plus lisible.
+5: Cela fait en sorte de repousser le paragraphe d'après contre le block pour grader un lisibilité.
+6: position: Cela a fait en sorte de rendre le titre indépendent du reste du html. Et seul le h1 a bougé le reste est normal. z-index: Cela a mit le titre en arrière plan.
+7:
+8: Cela a écarté l'ément aside du reste. 10 et 50 pixeles servent à la position ou le aside va se retrouver.
+9: Cela a sorti le aside de l'écran.
+10:
+11: Cela a remit le aside à ça place, par contre il est toujours sorti du flux.
+12: Cela a encrée le aside sur la page du navigateur et par concéquence sur le mouvement de la page du navigateur.
+*/

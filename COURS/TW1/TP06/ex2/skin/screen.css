@@ -1,0 +1,17 @@
+#menu {
+    order: 1;
+}
+#contenu {
+    command: 2;
+}
+#firefox {
+    background-image: url("img / logoFirefox.png");
+}
+.logos li{
+    padding-top: 60px;
+    /* pour laisser la place à l'image de fond*/
+    background-repeat: no-repeat;
+    background-position: up center;
+    text-align: center;
+    width: 150px;
+}

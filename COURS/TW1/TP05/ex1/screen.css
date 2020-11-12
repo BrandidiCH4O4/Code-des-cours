@@ -1,0 +1,57 @@
+
+.conteneur {
+    border: 1px dotted #666;
+    background-color: tomato;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    justify-content: space-evenly;
+    grid-gap: 10px;
+    grid-template-rows: 1fr 3fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.conteneur section {
+    border: 1px solid black;
+    border-radius: 1em;
+    background-color: gold;
+    padding: .6em;
+}
+
+#identifiant{
+    justify-self: stretch;
+    align-self: stretch;
+}
+
+ul{
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    grid-template-rows: 1fr 1fr;
+    display: grid;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    grid-gap: 10px;
+    list-style-type: none;
+    
+}
+li{
+    border: 1px dotted #000000;
+    background-color: silver;
+}
+
+/*
+1:
+2:
+3:
+4: ça a occupé tous l'espace vide. en poussant les autres.
+5: La colone centrale est beaucoup plus grande que la colone de gauche. mais cela n'a pas affecter la lisibilité.
+6:
+7: La 3eme colone est passer sous la première et fait la même taille donc par défaut la colone à 1fr d'affecter.
+8: Le texte de la 3eme colone sort de ça colone.
+9:
+10:
+11:
+12:
+13:
+*/
