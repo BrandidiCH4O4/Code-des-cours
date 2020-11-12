@@ -13,6 +13,8 @@
            <li>TW1</li>
            <li>Python</li>
            <li>Construction CV et lettre de motivation</li>
+           <li>Culture num</li>
+           <li>français</li>
          </ul>
       </ul>
       <hr>
