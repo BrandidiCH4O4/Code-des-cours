@@ -1,0 +1,63 @@
+		WINDOWS INSTALLATION INSTRUCTIONS
+
+
+1. UNPACK DISTRIBUTION
+
+Unpack the file pandore6.x.x-windows-src.zip. This creates the new
+folder 'Pandore6.x.x'.
+
+
+2. CONFIGURATION (binary release)
+
+To install Pandore, launch:
+	configure-binary.bat
+
+3. CONFIGURATION (open source release)
+
+To compile Pandore, launch:
+
+	configure-vc++Express.bat with the Visual C++ Express compiler
+	or
+	configure-devcpp.bat with the Dev-Cpp compiler
+
+NOTICE: With the VC++2005 Express compiler, modify the 'configure-vc++2005Express.bat'
+        file to add the following variables:
+        (to avoid the compiling error: cannot find "windows.h" file)
+
+  - CPPFLAGS	path to SDK includes folder,
+			for example: /I"D:\Program Files\Microsoft Platform SDK\include"
+  - LDFLAGSOP	path to the SDK libraries folder,
+        		for example /LIBPATH:"D:\Program Files\Microsoft Platform SDK\lib"
+
+4. INSTALLATION (open source release) 
+
+To compile Pandore, launch the script file:
+
+	install.bat
+
+5. ADVANCED INSTALLATION
+
+It is possible to modify the compiler and the related options
+by modifying directly the parameters at the beginning of
+the configure file: configure-??.bat.
+
+6. USING PANDORE
+
+The installation creates the file pandore.bat.
+This file can be moved into the desktop or the menu.
+
+To use Pandore, launch the script:
+
+	pandore.bat
+
+This script opens a new MSDOS session. Try the following command:
+
+	pversion
+
+or a more complex sequence:
+
+	pbmp2pan examples\tangram.bmp image1.pan
+	pstatus
+	pvisu image1.pan
+
+The command 'pstatus' must display SUCCESS.

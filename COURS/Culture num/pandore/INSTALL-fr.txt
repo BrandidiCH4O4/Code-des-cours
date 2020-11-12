@@ -1,0 +1,86 @@
+		INSTALLATION DE PANDORE SOUS WINDOWS
+
+
+1. DECOMPRESSION
+
+Décompresser le fichier pandore6.x.x-windows-src.zip. Cette décompression crée un
+nouveau dossier Pandore6.x.x et y dépose tous les sous-dossiers
+et tous les fichiers.
+
+
+2. CONFIGURATION (version binaire)
+
+Pour installer Pandore, il suffit de double cliquer sur le script
+
+	configure-binary.bat
+ou d'exécuter dans une fenêtre msdos la commande:
+
+	configure-binaire
+
+Ce script doit creer le fichier pandore.bat
+Passer ensuite a l'etape 6.
+
+
+3. CONFIGURATION (version à compiler)
+
+Pour complier Pandore, il suffit de double cliquer sur le script
+
+	configure-vc++Express.bat pour le compilateur Visual C++ Express
+	ou
+	configure-devcpp.bat pour le compilateur de Dev-Cpp
+
+ou d'exécuter dans une fenêtre msdos la commande:
+
+	configure-vc++
+	ou
+	configure-vc++2005Express
+	ou
+	configure-devcpp
+
+NOTE: Pour la version vc++ 2005 Express il peut être nécessaire de modifier
+le fichier configure-vc++2005Express.bat pour ajouter aux variables
+  - CPPFLAGS : le chemin vers le dossier include du SDK, par exemple:
+        /I"D:\Program Files\Microsoft Platform SDK\include"
+  - LDFLAGSOP : le chemin vers le dossier lib du SDK, par exemple:
+        /LIBPATH:"D:\Program Files\Microsoft Platform SDK\lib"
+si le SDK se trouve dans le dossier \Program Files\Microsoft Platform SDK.
+A defaut, la compilation produit l'erreur: impossible de trouver le fichier "windows.h" 
+
+
+4. SIMPLE COMPILATION (Version open source uniquement) 
+
+Pour compiler Pandore, il suffit de double cliquer sur le script
+
+	install.bat
+
+ou d'exécuter dans une fenêtre msdos la commande:
+
+	install
+
+5. COMPILATION AVANCEE
+
+Il est possible de modifier le compilateur et les options de compilation
+en modifiant directement les variables au début du fichier configure-??.bat.
+
+
+6. UTILISATION DE PANDORE
+
+L'installation génère un fichier pandore.bat.
+Ce fichier peut être copié sur le bureau ou ajouté au menu.
+
+Pour utiliser pandore, il suffit de double cliquer sur le script
+
+	pandore.bat
+
+Ce script ouvre une session MsDOS et à partir de là, l'ensemble des opérateurs
+Pandore sont accessibles. Par exemple, pour tester l'installation, taper :
+
+	pversion
+
+ou une séquence plus complexe:
+
+	pbmp2pan examples\tangram.bmp image1.pan
+	pstatus
+	pvisu image1.pan
+
+La commande 'pstatus' doit afficher SUCCESS.
