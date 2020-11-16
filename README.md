@@ -15,6 +15,7 @@
            <li>Construction CV et lettre de motivation</li>
            <li>Culture num</li>
            <li>français</li>
+           <li>Maths en distanciel</li>
          </ul>
       </ul>
       <hr>
