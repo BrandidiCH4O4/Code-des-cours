@@ -1,0 +1,102 @@
+body {
+    max-width: 70em;
+    margin: auto;
+    background-color: #102;
+    color: white;
+}
+
+article {
+    border: 1px solid #28B;
+    padding: 1em;
+    margin: 1em 0;
+}
+
+aside {
+    background-color: rgba(45, 67, 39, 0.8);
+    color: white;
+    padding: 1em;
+    margin: .5em 2em;
+}
+
+h3 ~ p{
+    text-align: center;
+    font-style: unset;
+    font-weight: unset;
+}
+article > p {
+    text-indent: 3em;
+    text-align: justify;
+    padding: 0 5em;
+    color: #DCF;
+    font-weight: bold;
+    font-style: italic;
+ }
+
+/*
+.intro {
+    text-indent: unset;
+    text-align: unset;
+    padding: unset;
+    color: unset;
+}
+*/
+aside:hover {
+    box-shadow: .6em .2em 1em white;
+    border-radius: .5em;
+}
+aside:active h3 {
+    text-transform: uppercase;
+ }
+/*
+:first-child {
+    border-top: 10px solid forestgreen;
+ }
+:last-child {
+    border-right: 10px solid darkred;
+ }
+:first-of-type {
+    border-left: 10px solid orange;
+}
+:last-of-type {
+    border-bottom: 10px solid lightblue;
+}
+*/
+p:first-child {
+   font-variant: small-caps;
+ }
+h1::first-letter {
+    color: rebeccapurple;
+    font-size: 200%;
+    vertical-align: middle;
+}
+.intro::first-line {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 140%;
+}
+aside::after {
+    content: "⁂";
+    display: block;
+    font-size: 2em;
+    text-align: center;
+}
+/* ajouter les nouvelles regles ci-dessous */
+
+/*
+1:
+2:
+3:
+4: ça n'a rien changé.
+5: ça donne l'éffet voulu car les p dans aside n'ont pas de article en parent direct.
+6:
+7:
+8: ça met en surbrillance les paragraphe survolée par la souris.
+9: ça le fait que sur les éléments aside.
+10: ça concerne uniquement les éléments dans les aside.
+11: ça met tous en majuscules.
+12: Maintenant ça ne met que le h3 en majuscules. donc le selecteur est interpréter de la manière suivante dans les aside tu met en majuscules: uniquement les h3 quand un clic est éfectuer. 
+13: :first-child permet de cibler un élément qui est le premier élément fils par rapport à son élément parent. Et :first-child permet de cibler un élément qui est le premier élément fils par rapport à son élément parent. Oui il y a deux éléments qui ont une bordure rouge et une verte.
+14: :first-of-type permet de cibler le premier élément d'un type donné parmi ceux d'un même élément parent (et de même niveau). Et :last-of-type cible un élément qui est le dernier enfant d'un type donné dans la liste des enfants de l'élément parent. Oui il y a deux éléments qui ont les quatres bordures à la fois.
+15: L'autre ne fonctionne pas, car il prend les éléments de même niveau et non uniquement le première enfant.
+16: h11::first-letter met uniquement la premier lettre du tutre de la couleur rebeccapurple, une taille a 200% et aligner verticalement au milieu. .intro::first-line met la première ligne d'intro en italique, en gras et a 140% de sa taille d'origine. Et aside::after met des ⁂ après le aside, dans un block à la taille 2 em et au milieu.
+*/
