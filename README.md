@@ -16,6 +16,10 @@
            <li>Culture num</li>
            <li>français</li>
            <li>Maths en distanciel</li>
+           <ol>
+             <li>Algèbre 0</li>
+             <li>Maths 0</li>
+           </ol>
          </ul>
       </ul>
       <hr>
