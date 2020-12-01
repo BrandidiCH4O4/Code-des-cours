@@ -1,0 +1,36 @@
+html {
+	background: blue;
+	color: white;
+}
+@media (max-width: 800px) {
+	html {
+		background: darkred;
+	}
+}
+p {
+	max-width: 700px;
+	margin: auto;
+	text-align: justify;
+}
+@media (min-width: 500px) {
+	 h2 {
+		 font-style: italic;
+	 }
+ }
+
+@media (min-width: 1000px) {
+	 h2 {
+		 font-weight: normal;
+	 }
+ }
+h1{
+    font-size: 10vh;
+}
+h2{
+    display: none;
+}
+@media (max-width: 400px){
+    h2{
+        display: block;
+    }
+}

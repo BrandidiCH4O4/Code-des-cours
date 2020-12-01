@@ -1,0 +1,15 @@
+.menu{
+    width: 180px;
+}
+.info{
+    width: 20em;
+    grid-column: span 2
+}
+.main-text{
+    width: 10em;
+    grid-column: span 2
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
