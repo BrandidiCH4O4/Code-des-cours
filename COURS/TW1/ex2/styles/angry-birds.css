@@ -1,0 +1,99 @@
+html {
+  background-color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: ivory;
+  margin: auto;
+  padding: 4em;
+  padding-top: 0;
+  max-width: 60em;
+}
+
+
+/*****  En-tête de page ********/
+header {
+}
+
+header:hover {
+}
+
+header h1 {
+    text-indent: -9999px;
+}
+
+
+/*********  Images  *************/
+figure{
+    text-align: center;
+}
+
+
+
+
+/*********  Article  ***********/
+
+main section {
+  border: 1px dotted gray;
+  padding: .5em 1.5em;
+  margin: .5em;
+  background-color: white;
+}
+
+
+
+/*************************  Menu de navigation *************************/
+.menu {
+	text-align: center;
+}
+.menu .categorie {
+	display: inline-block;
+	vertical-align: top;
+	background: #FEC552;
+}
+.menu .categorie ul {
+	display: none;
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.menu .categorie:hover ul {
+	display: block;
+}
+.menu h3 {
+	display: block;
+	margin: 0;
+	padding: .5em .005em;
+	font-size: inherit;
+	color: #009E4A;
+	background-color: #FEC552;
+	text-decoration: none;
+	box-sizing: border-box;
+	width: 10em;
+}
+.menu a{
+    display: block;
+	margin: 0;
+	padding: .5em .005em;
+	font-size: inherit;
+	color: #009E4A;
+	background-color: #F1DACA;
+	text-decoration: none;
+	box-sizing: border-box;
+	width: 10em;
+}
+.menu .categorie:hover h3 {
+	color: #009E4A;
+	font-weight: bold;
+}
+.menu a:hover {
+	color: #009E4A;
+	font-weight: bold;
+}
+/*repris éssentiellement du cours
+/*********************************/
+h3{
+    color: #009E4A;
+}
