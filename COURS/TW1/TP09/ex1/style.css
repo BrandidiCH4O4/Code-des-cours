@@ -1,0 +1,49 @@
+html{
+    background-color: #ADDBD5;
+    color: blue;
+}
+h1{
+    border: 1px solid blue;
+    border-radius: 1em;
+    padding: 2em;
+    text-align: center;
+}
+@font-face {
+    font-family: Purisa;
+    src: url('polices/purisa-webfont.woff');
+}
+body{
+    background-color:#ADDBD5;
+	font-family: Purisa;
+}
+div{
+    max-width: 100%;
+	height: auto;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    padding: 0.5em;
+}
+header p{ border: solid blue 2px;
+          border-radius: 10px;
+          background-color: blue;
+          color: white;
+          width: 60%;
+          display: none;
+          margin:auto;
+          font-weight:bold;}
+          
+header:hover p{display:block;}
+#loup:hover{
+    background-color: white;
+}
+#chat:hover img{
+    opacity: 0.6;
+}
+#singe:hover p{
+    color: green;
+}
+#lion:hover img{
+    width: 25%;
+    height: 25%;
+}
