@@ -1,0 +1,44 @@
+ul {
+	border-radius: 1em;
+	border: 1px solid orange;
+	background-color: palegreen;
+	display: inline-block;
+	list-style: none;
+	padding: 0px 5px;
+	margin: 0 1em;
+}
+
+li a {
+	display: block;
+	border-radius: 1em;
+	background-color: gold;
+	border: 1px solid orange;
+	margin: 10px 0;
+	text-decoration: none;
+	color: black;
+	width: 6em;
+	text-align: center;
+}
+/*li{
+    text-indent: inherit;
+    transition: 1s;
+    color: black;
+}
+li:hover{
+    text-indent: 20px;
+    color: red;
+}*/
+li a {
+	transition: 1s;
+    color: black;
+    
+}
+
+li a:hover {
+	transform: translate(20px, 0)
+    rotate(360deg);
+    color: white;
+}
+li a:focus{
+    font-size:200%;
+}
