@@ -1,5 +1,7 @@
 <h1>TW1</li>
-il y a tous les TP:
+
+<h2>il y a tous les TP:</h2>
+
 <ul>
   <li>TP1</li>
   <li>TP2</li>
@@ -14,5 +16,7 @@ il y a tous les TP:
   <li>TP10</li>
   <li>TP11</li>
 </ul>
+
 <hr>
+
 <p><small>P.S pour le TP9 il y a eu une érreur et je ne peux pas faire autrement</small></p>
