@@ -32,6 +32,11 @@
        <li>TiyTask.exe</li>
      </ol>
      <hr>
+     <p>Ainsi qu'un fichier pour calculer les frais d'un pc :</p>
+     <ul>
+       <li>Calcul de prix</li>
+     </ul>
+     <hr>
      <p><U>ainsi qu'un fichier de démo Github</U> :</p>
      <ul>
         <li> Readme.md </li>
